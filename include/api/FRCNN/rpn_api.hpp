@@ -1,3 +1,6 @@
+#ifndef RPN_API_H
+#define RPN_API_H
+
 #include <vector>
 #include <string>
 #include <boost/make_shared.hpp>
@@ -38,3 +41,5 @@ private:
 };
 
 }
+
+#endif // RPN_API_H

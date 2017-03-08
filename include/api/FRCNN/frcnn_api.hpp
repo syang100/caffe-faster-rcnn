@@ -1,3 +1,6 @@
+#ifndef FRCNN_API_H
+#define FRCNN_API_H
+
 #include <vector>
 #include <string>
 #include <boost/make_shared.hpp>
@@ -41,3 +44,5 @@ private:
 };
 
 }
+
+#endif // FRCNN_API_H

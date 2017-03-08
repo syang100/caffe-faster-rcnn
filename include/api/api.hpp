@@ -1,3 +1,6 @@
+#ifndef API_H
+#define API_H
+
 #include <vector>
 #include <string>
 #include <boost/make_shared.hpp>
@@ -33,3 +36,5 @@ inline void Set_Config(std::string default_config) {
 }
 
 }
+
+#endif // API_H
